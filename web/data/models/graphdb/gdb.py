@@ -9,9 +9,9 @@ def get_db():
     return graph
 
 #
-x = get_db()
-data = x.data("MATCH (a:CAMPAIGN) RETURN a.campaign")
-
-for elem in data:
-    print("Element : {}".format(elem))
+# x = get_db()
+# data = x.data("MATCH (a:CAMPAIGN) RETURN a.campaign")
+#
+# for elem in data:
+#     print("Element : {}".format(elem))
 #
