@@ -205,9 +205,11 @@ def get_campaigns_test():
 def get_campaigns():
     logger.info("CALL /tet/v1/campaigns - BANANAS")
     graph = gdb.get_db()
-    data = graph.data("MATCH(c: CAMPAIGN) RETURN c.industry , c.ref , c.target, c.touchpoints, c.ActualGoal ,\
-                      c.BudgetRollover, c. ConversionRate , c.Cost ,\
-                      c.ImprovementsCost, c.Predicted_Goal , c.Predicted_Goal_variance, c.StartingBudget, c.SuccessFee, c. campaign ")
+    data = graph.data("MATCH(c: CAMPAIGN) RETURN c.industry as industry , c.ref as ref , c.target as target, \
+    c.touchpoints as touchpoints, c.ActualGoal  as ActualGoal, c.BudgetRollover as BudgetRollover, \
+    c.ConversionRate  as ConversionRate, c.Cost  as Cost, c.ImprovementsCost as ImprovementsCost, \
+    c.Predicted_Goal  as Predicted_Goal, c.Predicted_Goal_variance as Predicted_Goal_variance, \
+    c.StartingBudget as StartingBudget, c.SuccessFee as SuccessFee, c.campaign  as campaign")
 
     # for elem in data:
     #     print("Element : {}".format(elem))

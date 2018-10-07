@@ -83,3 +83,43 @@
 [I 181007 16:17:46 industry:45] CALL /tet/v1/industry - APPLES
 [I 181007 16:28:31 __init__:85] /tet/v1/industry
 [I 181007 16:28:31 industry:45] CALL /tet/v1/industry - APPLES
+[I 181007 17:49:35 __init__:45] /tet/v1/touchpoints
+[I 181007 17:49:35 touchpoints:62] CALL /tet/v1/touchpoints - APPLES
+[I 181007 17:50:10 __init__:85] /tet/v1/industry
+[I 181007 17:50:10 industry:45] CALL /tet/v1/industry - APPLES
+[I 181007 17:52:02 __init__:45] /tet/v1/touchpoints
+[I 181007 17:52:02 touchpoints:62] CALL /tet/v1/touchpoints - APPLES
+[I 181007 17:52:07 __init__:125] /tet/v1/target
+[I 181007 17:52:07 target:31] CALL /tet/v1/targets - APPLES
+[I 181007 17:52:24 __init__:24] CALL /tet/v1/campaigns
+[I 181007 17:52:24 campaigns:206] CALL /tet/v1/campaigns - BANANAS
+[I 181007 17:52:24 __init__:26] campaigns.get_campaigns()
+[I 181007 17:52:55 __init__:24] CALL /tet/v1/campaigns
+[I 181007 17:52:55 campaigns:206] CALL /tet/v1/campaigns - BANANAS
+[I 181007 17:52:55 __init__:26] campaigns.get_campaigns()
+[I 181007 17:52:55 __init__:28] campaign - request.args
+[I 181007 17:53:25 __init__:24] CALL /tet/v1/campaigns
+[I 181007 17:53:25 campaigns:206] CALL /tet/v1/campaigns - BANANAS
+[I 181007 17:53:25 __init__:26] campaigns.get_campaigns()
+[I 181007 17:57:30 __init__:24] CALL /tet/v1/campaigns
+[I 181007 17:57:30 campaigns:206] CALL /tet/v1/campaigns - BANANAS
+[I 181007 17:57:30 __init__:26] campaigns.get_campaigns()
+[I 181007 18:00:46 __init__:24] CALL /tet/v1/campaigns
+[I 181007 18:00:46 campaigns:206] CALL /tet/v1/campaigns - BANANAS
+[I 181007 18:00:47 __init__:26] campaigns.get_campaigns()
+[I 181007 18:05:02 __init__:24] CALL /tet/v1/campaigns
+[I 181007 18:05:02 campaigns:206] CALL /tet/v1/campaigns - BANANAS
+[I 181007 18:05:04 __init__:26] campaigns.get_campaigns()
+[I 181007 18:05:08 __init__:24] CALL /tet/v1/campaigns
+[I 181007 18:05:08 campaigns:206] CALL /tet/v1/campaigns - BANANAS
+[I 181007 18:05:08 __init__:26] campaigns.get_campaigns()
+[I 181007 18:05:27 __init__:85] /tet/v1/industry
+[I 181007 18:05:27 industry:45] CALL /tet/v1/industry - APPLES
+[I 181007 18:05:46 __init__:65] /tet/v1/engagements
+[I 181007 18:05:46 engagement:31] CALL /tet/v1/engagements - APPLES
+[I 181007 18:05:52 __init__:125] /tet/v1/target
+[I 181007 18:05:52 target:31] CALL /tet/v1/targets - APPLES
+[I 181007 18:06:08 __init__:105] /tet/v1/audience
+[I 181007 18:06:08 audience:13] CALL /tet/v1/audience
+[I 181007 18:10:14 __init__:105] /tet/v1/audience
+[I 181007 18:10:14 audience:13] CALL /tet/v1/audience
